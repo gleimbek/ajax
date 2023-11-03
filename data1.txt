@@ -1,17 +1,3 @@
-[
-  {"number": "1",
-   "text": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
-  "author": "Anónimo"
-}
-{
-  "number": "2",
-  "text": "El único lugar donde el éxito viene antes que el trabajo es en el diccionario."
-  "author": "Vidal Sassoon"
-}
-{
-  "number": "3",
-  "text": "Nunca te rindas. Grandes cosas llevan tiempo."
-  "author": "Anónimo"
-}
-]
-
+1. "El éxito es la suma de pequeños esfuerzos repetidos día tras día." - Anónimo
+2. "El único lugar donde el éxito viene antes que el trabajo es en el diccionario." - Vidal Sassoon
+3. "Nunca te rindas. Grandes cosas llevan tiempo." - Anónimo
