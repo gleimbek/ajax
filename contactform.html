@@ -1,0 +1,29 @@
+<div class="contact-form">
+			<h2>Contact form</h2>
+			<form class="contdata" id="info">				
+					<div>
+						<!--<label for="name">Name:</label>-->
+						<input type="text" name="name" id="name" placeholder ="Name" title="Please provide your first and last name." required>
+						<div class="error"></div>
+					</div>
+					
+					<div>
+						<!--<label for="email">Email:</label>-->
+						<input type="email" name="email" id="email" placeholder ="Email Address" title="Please provide your email." required>
+						<div class="error"></div>
+					</div>
+					
+					<div>
+						<!--<label for="subject">Subject:</label>-->
+						<input type="text" name="subject" id="subject" placeholder ="Subject" title="Please provide the subject."required>
+						<div class="error"></div>
+					</div>
+					
+					<div class="message">
+						<label for="message">Message:</label>
+						<textarea id="message" maxlength="500" rows="12" cols="50" placeholder ="Message" title="Please provide a description." required></textarea>
+						<div class="error"></div>
+					</div>
+					<button type="button" onclick="validateForm()">Submit</button>	
+			</form>
+</div> 
