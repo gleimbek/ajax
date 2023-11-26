@@ -1,0 +1,358 @@
+<div class="body-form">
+		<h1>Request a Pick Up Online</h1>
+	 
+		<div id="content">
+		   
+		   <div id="container">
+				
+				<form id="submit"> <!-- Start Form -->
+					<fieldset>
+						<div>
+							<div class="logo-form">
+								<img src="images/logoform.png" alt="logo M32">
+							</div>
+							<div class="info-form">
+									<h4>M32 ORAL DESIGN STUDIO</h4>
+									<p>1397 GALLERIA DRIVE SUITE 201</br>
+									HENDERSON, NEVADA 89014</p>
+							</div>
+						</div>
+						<div class="phone-form">
+							<p> T 702.458.3194 &nbsp; &nbsp; F 702.458.3180 &nbsp; &nbsp;<img src="images/email.png" alt="Email">office@m32ods.com</p>
+						</div>
+					</fieldset>
+					<fieldset>
+						<label for="due" class="due">DUE BY 3:00 PM</label>
+						<input type="date" name="Due" id="due">
+					</fieldset>
+					<fieldset>
+						<legend>SHADE MAP</legend>
+						<fieldset class="shade">
+							<div>
+								<label for="shade">SHADE:</label>
+								<img src="images/teeth.png" alt="dientes">
+								<input type="text" name="shade" id="shade" required>
+							</div>
+						</fieldset>
+						<fieldset class="value">
+							<label for="value">VALUE:</label>
+							<input type="text" name="value" id="value" required>
+							
+							<label for="stump">STUMP:</label>
+							<input type="text" name="stump" id="stump" required>
+							
+							<label for="incisal">INCISAL TRANSLUCENCY:</label>
+							<input type="text" name="incisal" id="incisal" required>
+						</fieldset>
+						<fieldset class="note">
+							<label for="snote">SHADE NOTE:</label>
+							<textarea id="snote" maxlength="1000" rows="16" cols="47"></textarea>
+						</fieldset>
+					</fieldset>
+					<fieldset class="pmaterial">
+						<label for="pmaterial">Preferred Material:</label>
+						<input type="text" name="pmaterial" id="pmaterial" required>
+					</fieldset>
+					<fieldset>
+						<legend>GOAL OF NEW SMILE DESIGN</legend>
+						<fieldset class="option">
+							<div id="column1" class="column">
+								<label for="cshape">
+									<input type="checkbox" id="cshape" name="Change Shape" value="Change Shape" required>
+									Change Shape
+								</label><br>
+								<label for="cdiastema">
+									<input type="checkbox" id="cdiastema" name="Close Diastema" value="Close Diastema" required>
+									Close Diastema
+								</label><br>
+								<label for="mline">
+									<input type="checkbox" id="mline" name="Move Middle Line" value="Move Middle Line" required>
+									Move Middle Line
+								</label><br>
+								<label for="wbucal">
+									<input type="checkbox" id="wbucal" name="Widen Buccal Corridor" value="Widen Buccal Corridor" required>
+									Widen Buccal Corridor
+								</label>
+							</div>
+							<div id="column2" class="column">
+								<label for="fshape">
+									<input type="checkbox" id="fshape" name="Femenize Shape" value="Femenize Shape" required>
+									Femenize Shape
+								</label><br>
+								<label for="ysmile">
+									<input type="checkbox" id="ysmile" name="Youthen Smile" value="Youthen Smile" required>
+									Youthen Smile
+								</label><br>
+								<label for="lteeth">
+									<input type="checkbox" id="lteeth" name="Lengthen Teeth" value="Lengthen Teeth" required>
+									Lengthen Teeth
+								</label><br>
+								<label for="changes">
+									<input type="checkbox" id="changes" name="Change Shade" value="Change Shade" required>
+									Change Shade
+								</label>
+							</div>
+						</fieldset>
+						<fieldset class="smile">
+							<label for="sedesign">SMILE ESTHETIC DESIGN:</label>
+							<input type="text" name="sedesign" id="sedesign" required>
+							
+							<label for="sbyaoshima">SMILE DESIGN BY AOSHIMA:</label>
+							<input type="text" name="sbyaoshima" id="sbyaoshima" required>
+								
+							<label for="scatalogo">SMILE CATALOG BY L.V.I:</label>
+							<input type="text" name="scatalogo" id="scatalogo" required>
+								
+							<label for="stexture">SURFACE TEXTURE:</label>
+							<input type="text" name="stexture" id="stexture" required><br>
+								
+							<label for="sfinish">SURFACE FINISH:</label>
+							<input type="text" name="sfinish" id="sfinish" required>
+						</fieldset>
+						<fieldset class="send">
+							<legend>PLEASE SEND</legend>
+							<label for="fedex" class="fedex">
+								<input type="checkbox" id="fedex" name="Fedex" value="Fedex" required>
+								FEDEX PREPAID LABEL
+							</label>
+							<label for="paper">
+								<input type="checkbox" id="paper" name="Paper RX Form" value="Paper RX Form" required>
+								PAPER RX FORM
+							</label>
+						</fieldset>
+				</form>
+			</div>
+			<div id="container2">
+				<form id="second">
+							<div class="date">
+								<label for="fecha">TODAY'S DATE:</label> 
+								<span id="fecha"></span>
+							</div>
+							
+							<fieldset class="doctor">
+								<label for="doctor">DOCTOR:</label>
+								<input type="text" name="doctor" id="doctor" required>
+			
+								<label for="phone">PHONE #:</label>
+								<input type="phone" name="phone" id="phone" required>
+								
+								<label for="patient">PATIENT:</label>
+								<input type="text" name="patient" id="patient" required>
+								
+								<label for="age">AGE:</label>
+								<input type="num" name="age" id="age" required>
+								
+								<label for="sex">SEX:</label>
+								<label for="sexm">
+									<input type="radio" name="sex male" id="sexm" value="sex male">
+									M
+								</label>
+								<label for="sexf">
+									<input type="radio" name="sex female" id="sexf" value="sex female">
+									F
+								</label>
+							</fieldset>
+							<fieldset id="radio">
+								<legend>Tooth Information</legend>
+								
+								<div>
+									<div class="block1">
+										<div class="radio-item">
+											<input type="radio" name="one" id="one" value="one">
+											<label for="one">1</label>
+										</div>
+										
+										<div class="radio-item">							
+											<input type="radio" name="two" id="two" value="two">
+											<label for="two">2</label>
+										</div>
+										
+										<div class="radio-item">
+											<input type="radio" name="three" id="three" value="three">
+											<label for="three">3</label>
+										</div>
+										
+										<div class="radio-item">
+											<input type="radio" name="four" id="four" value="four">
+											<label for="four">4</label>
+										</div>
+										
+										<div class="radio-item">
+											<input type="radio" name="five" id="five" value="five">
+											<label for="five">5</label>
+										</div>
+										
+										<div class="radio-item">
+											<input type="radio" name="six" id="six" value="six">
+											<label for="six">6</label>
+										</div>
+										
+										<div class="radio-item">
+											<input type="radio" name="seven" id="seven" value="seven">
+											<label for="seven">7</label>
+										</div>
+										
+										<div class="radio-item">
+											<input type="radio" name="eight" id="eight" value="eight">
+											<label for="eight">8</label>
+										</div>
+									</div>
+										
+									<div class="block2">
+										<div class="radio-item">
+											<input type="radio" name="nine" id="nine" value="nine">
+											<label for="nine">9</label>
+										</div>
+									
+										<div class="radio-item">
+											<input type="radio" name="ten" id="ten" value="ten">
+											<label for="ten">10</label>
+										</div>
+										<div  class="radio-item">
+											<input type="radio" name="eleven" id="eleven" value="eleven">
+											<label for="eleven">11</label>
+										</div>
+										<div  class="radio-item">
+											<input type="radio" name="ttwo" id="ttwo" value="ttwo">
+											<label for="ttwo">12</label>
+										</div>
+										<div  class="radio-item">
+											<input type="radio" name="tthree" id="tthree" value="tthree">
+											<label for="tthree">13</label>
+										</div>
+										<div class="radio-item">
+											<input type="radio" name="tfour" id="tfour" value="tfour">
+											<label for="tfour">14</label>
+										</div>
+										<div class="radio-item">
+											<input type="radio" name="tfive" id="tfive" value="tfive">
+											<label for="tfive">15</label>
+										</div>
+										<div class="radio-item">
+											<input type="radio" name="tsix" id="tsix" value="tsix">
+											<label for="tsix">16</label>
+										</div>
+									</div>
+							
+									<div class="block3">
+										<div class="radio-item">
+											<label for="tttwo">32</label>
+											<input type="radio" name="tttwo" id="tttwo" value="tttwo">
+										</div>
+										<div class="radio-item">
+											<label for="tttone">31</label>
+											<input type="radio" name="tttone" id="one" value="tttone">
+										</div>
+										<div class="radio-item">
+											<label for="thirty">30</label>
+											<input type="radio" name="thirty" id="thirty" value="thirty">
+										</div>
+										<div class="radio-item">
+											<label for="twnine">29</label>
+											<input type="radio" name="twnine" id="twnine" value="twnine">
+										</div>
+										<div class="radio-item">
+											<label for="tweight">28</label>
+											<input type="radio" name="tweight" id="tweight" value="tweight">
+										</div>
+										<div class="radio-item">
+											<label for="twseven">27</label>
+											<input type="radio" name="twseven" id="twseven" value="twseven">
+										</div>
+										<div class="radio-item">
+											<label for="twsix">26</label>
+											<input type="radio" name="twsix" id="twsix" value="twsix">
+										</div>
+										<div class="radio-item">
+											<label for="twfive">25</label>
+											<input type="radio" name="twfive" id="ttwive" value="twfive">
+										</div>
+									</div>
+									
+									<div class="block4">
+										<div class="radio-item">
+											<label for="twfour">24</label>
+											<input type="radio" name="twfour" id="twfour" value="twfour">
+										</div>
+										<div class="radio-item">
+											<label for="twthree">23</label>
+											<input type="radio" name="twthree" id="twthree" value="twthree">
+										</div>
+										<div class="radio-item">
+											<label for="twtwo">22</label>
+											<input type="radio" name="twtwo" id="twtwo" value="twtwo">
+										</div>
+										<div class="radio-item">
+											<label for="twone">21</label>
+											<input type="radio" name="twone" id="twone" value="twone">
+										</div>
+										<div class="radio-item">
+											<label for="twenty">20</label>
+											<input type="radio" name="twenty" id="twenty" value="twenty">
+										</div>
+										<div class="radio-item">
+											<label for="tnine">19</label>
+											<input type="radio" name="tnine" id="tnine" value="tnine">
+										</div>
+										<div class="radio-item">
+											<label for="teight">18</label>
+											<input type="radio" name="teight" id="teight" value="teight">
+										</div>
+										<div class="radio-item">
+											<label for="tseven">17</label>
+											<input type="radio" name="tseven" id="tseven" value="tseven">
+										</div>
+									</div>
+								</div>
+							</fieldset>
+							<fieldset>
+								<div class="central">
+									<div>
+										<div>
+											<label for="clength8">CENTRAL LENGTH #8:</label>
+											<input type="num" name="clength8" id="clength8" required> mm
+										</div>
+										<div>
+											<label class="cenlabel" for="clength9">#9:</label>
+											<input type="num" name="clength9" id="clength9" required> mm
+										</div>
+										<div>
+											<label class="cenlabel" for="margin">BUTT MARGIN TOOTH #:</label>
+											<input type="num" name="margin" id="margin" required>
+										</div>
+									</div>
+									
+									<div>
+										<div>
+											<label for="gingival">GINGIVAL LINE: MODIFY POSITION:</label>
+											<input type="num" name="gingival" id="gingival" required> mm
+										</div>
+										<div>
+											<label class="cenlabel" for="golden">GOLDEN PORTION:</label>
+											<input type="num" name="golden" id="golden" required> mm
+										</div>
+									</div>
+									<div>
+										<div>
+											<label for="clearance">IF INADEQUANCE CLEARANCE:</label>
+											<input type="text" name="clearance" id="clearance" required>
+										</div>
+										<div>
+											<label class="cenlabel" for="bite">OPEN BITE:</label>
+											<input type="num" name="bite" id="bite" required> mm
+										</div>
+									</div>
+								</div>
+						</fieldset>
+						<fieldset>
+							<legend>Rx Instruction</legend>
+							<textarea id="instruction" maxlength="2000" rows="58" cols="90"></textarea>
+						</fieldset>
+					
+						<div>
+							<button id="button">Submit</button>
+						</div>
+				</form>
+			</div>
+		</div>
+</div>
